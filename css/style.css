@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* Formatação do index */
+
 /* Formatação da versão Mobile */
 
 html {
@@ -230,3 +232,4 @@ header {
         font-size: 3vw;
     }
 }
+
