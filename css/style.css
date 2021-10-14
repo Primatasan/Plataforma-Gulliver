@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
-*{
+* {
     margin: 0;
     paddind: 0;
     box-sizing: border-box;
 }
 
-html{
-    font-family: 'Poppins', sans-serif; 
+/* Formatação da versão Mobile */
+
+html {
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Cabeçalho */
 
-header{
+header {
     width: 100%;
     height: 215px;
     color: #FFF;
@@ -22,7 +24,7 @@ header{
 
 /* Espaço do usuario */
 
-.user_info{
+.user_info {
     display: flex;
     justify-content: space-between;
     padding: 15px 5% 0px 3%;
@@ -30,23 +32,23 @@ header{
     font-size: 13px;
 }
 
-.user_info i{
+.user_info i {
     font-size: 25px;
 }
 
 /* Espaço de busca do destino */
 
-.search_area{
+.search_area {
     padding: 0 5% 0 3%;
 }
 
-.search_area h2{
+.search_area h2 {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 0.3em;
 }
 
-.search_area h3{
+.search_area h3 {
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 1.2em;
@@ -54,52 +56,61 @@ header{
 
 /* Campo de busca */
 
-.search_box{
-    width: 90vw;
+.search_box {
+    width: 89vw;
     height: 45px;
     background-color: #FFF;
     color: #FFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 25px;
+    padding: 0 10px;
     border-radius: 25px;
 }
 
-.search_box i{
+.search_box i {
     color: #000;
     font-size: 20px;
 }
 
-.search_box input{
+#pesquisa{
     width: 80vw;
     height: 55%;
     border: none;
     font-size: 18px;
 }
 
-::placeholder{
+.botao{
+    width: 50%vw;
+    height: 55%;
+    background-color: #FFf;
+    margin-right: 10px;
+    border: none;
+    font-size: 30px;
+}
+
+::placeholder {
     color: #000;
     opacity: 1;
 }
 
-:-ms-input-placeholder{
+:-ms-input-placeholder {
     color: #000;
 }
 
-::-ms-input-placeholder{
+::-ms-input-placeholder {
     color: #000;
 }
 
-/* Formatação geral do main */
+/* Formatação dos cards */
 
-.corpo{
+.corpo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.corpo a{
+.corpo a {
     text-decoration: none;
     color: #000;
 }
@@ -108,16 +119,16 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 90vw;
-    height: 15vh;
+    width: 85vw;
+    height: 18vh;
     margin: 5% 0;
     padding: 8px;
     box-shadow: 5px 4px 18px rgba(0, 0, 0, 0.25);
     border-radius: 27px;
 }
 
-.imagens{
-    height: 85%;
+.imagens {
+    height: 13vh;
     border-radius: 20px;
 }
 
@@ -125,19 +136,97 @@ header{
     color: goldenrod;
 }
 
-.cidade{
+.cidade {
     font-size: 3.2vw;
 }
 
-.infos h3{
+.infos h3 {
     font-size: 4vw;
 }
 
-.detalhe{
+.detalhe {
     font-size: 2.5vw;
 }
 
-.preco{
+.preco {
     font-weight: 700;
     font-size: 4vw;
+}
+
+/* Formatação da versão desktop */
+
+@media (min-width: 820px) {
+
+    /* Cabeçalho */
+
+    header {
+        height: 270px;
+    }
+
+    /* Espaço do usuario */
+
+    .user_info {
+        margin-bottom: 1vh;
+        font-size: 20px;
+    }
+
+    .user_info i {
+        font-size: 35px;
+    }
+
+    /* Espaço de busca do destino */
+
+    .search_area h2 {
+        font-size: 30px;
+        margin-bottom: 0.1em;
+    }
+
+    .search_area h3 {
+        font-size: 30px;
+        margin-bottom: 0.5em;
+    }
+
+    /* Campo de busca */
+
+    .search_box {
+        width: 90vw;
+        height: 60px;
+    }
+
+    #pesquisa{
+        font-size: 25px;
+    }
+
+    /* Formatação dos cards */
+
+    .card {
+        width: 75vw;
+        height: 30vh;
+        margin: 2% 0;
+    }
+
+    .imagens {
+        height: 25vh;
+        border-radius: 20px;
+    }
+
+    .infos {
+        text-align: left;
+    }
+
+    .infos h3 {
+        font-size: 3vw;
+    }
+
+    .cidade {
+        font-size: 2vw;
+    }
+
+    .detalhe {
+        font-size: 1.5vw;
+    }
+
+    .preco {
+        font-size: 3vw;
+    }
 }
