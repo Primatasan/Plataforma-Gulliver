@@ -16,7 +16,7 @@ html {
 
 /* Cabeçalho */
 
-header {
+.header_index {
     width: 100%;
     height: 215px;
     color: #FFF;
@@ -75,14 +75,14 @@ header {
     font-size: 20px;
 }
 
-#pesquisa{
+#pesquisa {
     width: 80vw;
     height: 55%;
     border: none;
     font-size: 18px;
 }
 
-.botao{
+.botao {
     width: 50%vw;
     height: 55%;
     background-color: #FFf;
@@ -161,7 +161,7 @@ header {
 
     /* Cabeçalho */
 
-    header {
+    .header_index {
         height: 270px;
     }
 
@@ -195,7 +195,7 @@ header {
         height: 60px;
     }
 
-    #pesquisa{
+    #pesquisa {
         font-size: 25px;
     }
 
@@ -233,3 +233,8 @@ header {
     }
 }
 
+/* Formatação do hospedagem.html */
+
+.header_hospedagem{
+
+}
