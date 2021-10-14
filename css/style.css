@@ -1,10 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    paddind: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif; 
+}
+
+/* Cabeçalho */
+
+header{
+    width: 100%;
+    height: 215px;
+    color: #FFF;
+    background-color: #836fff;
+    border-radius: 0 0 20px 20px;
+}
+
+/* Espaço do usuario */
+
+.user_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5% 0px 3%;
+    margin-bottom: 1.5vh;
+    font-size: 13px;
+}
+
+.user_info i{
+    font-size: 25px;
+}
+
+/* Espaço de busca do destino */
+
+.search_area{
+    padding: 0 5% 0 3%;
+}
+
+.search_area h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+}
+
+.search_area h3{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 1.2em;
+}
+
+/* Campo de busca */
+
+.search_box{
+    width: 90vw;
+    height: 45px;
+    background-color: #FFF;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    border-radius: 25px;
+}
+
+.search_box i{
+    color: #000;
+    font-size: 20px;
+}
+
+.search_box input{
+    height: 50%;
+    border: none;
+    font-size: 18px;
+}
+
+::placeholder{
+    color: #000;
+    opacity: 1;
+}
+
+:-ms-input-placeholder{
+    color: #000;
+}
+
+::-ms-input-placeholder{
+    color: #000;
+}
+
+/* Formatação geral do main */
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpo a{
+    text-decoration: none;
+    color: #000;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    height: 15vh;
+    margin: 5% 0;
+    padding: 8px 0;
+    box-shadow: 5px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+}
+
 .icones {
     color: goldenrod;
 }
 
-.card {
-    border: 1px solid grey;
-    width: 300px;
-    margin: 30px 0;
-    padding: 0 30px 30px 30px;
+.imagens{
+    height: 85%;
+    border-radius: 20px;
+}
+
+
+.infos h3{
+    font-size: 4vw;
+}
+
+.detalhe{
+    font-size: 2.5vw;
+}
+
+.preco{
+    font-weight: 700;
+    font-size: 4vw;
 }
