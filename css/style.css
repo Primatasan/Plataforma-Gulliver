@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-/* Formatação do index */
-=======
->>>>>>> cb71e3c5ae947b9985b5d7710cc6a45b942e977e
 
 /* Formatação da versão Mobile */
 
@@ -78,23 +74,16 @@ html {
     font-size: 20px;
 }
 
-<<<<<<< HEAD
-#pesquisa {
-=======
 #pesquisa::placeholder {
     opacity: 0.5;
 }
 #pesquisa{
->>>>>>> cb71e3c5ae947b9985b5d7710cc6a45b942e977e
     width: 80vw;
     height: 55%;
     border: none;
     font-size: 18px;
 }
 
-<<<<<<< HEAD
-.botao {
-=======
 #pesquisa:focus-visible {
     outline: none;
     opacity: 0.9;
@@ -102,7 +91,6 @@ html {
 
 
 .botao{
->>>>>>> cb71e3c5ae947b9985b5d7710cc6a45b942e977e
     width: 50%vw;
     height: 55%;
     background-color: #FFf;
@@ -262,7 +250,6 @@ html {
         font-size: 3vw;
     }
 }
-<<<<<<< HEAD
 
 /* Formatação do hospedagem.html */
 
