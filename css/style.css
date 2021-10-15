@@ -251,7 +251,9 @@ html {
     }
 }
 
-/* Formatação do hospedagem.html */
+/* Formatação do hospedagem.html mobile */
+
+/* Formatação do header */
 
 .header_hospedagem{
     width: 100%;
@@ -269,11 +271,13 @@ html {
     margin: 15px;
     color: #FFF;
     font-size: 30px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
 }
 
 .base_hotel{
     margin: 0 15px 7vh;
+    width: 55vw;
+    padding: 10px;
+    background-color: rgba(00, 00, 00, 0.6);
 }
 
 .base_hotel h1{
@@ -286,7 +290,6 @@ html {
     margin: 0;
     text-shadow: none;
     color: goldenrod;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.85);
 }
 
 .white_bar{
@@ -298,3 +301,105 @@ html {
     border-radius: 25px 25px 0 0;
 }
 
+/* Formatação do main */
+
+.main_hospedagem{
+    font-size: 4vw;
+    color: #000;
+}
+
+.ico_titulo_hospedagem{
+    font-size: 8vw;
+}
+
+.titulo{
+    font-size: 5vw;
+    margin-left: 3vw;
+    font-weight: 700;
+}
+
+/* Primeira seção */
+
+.sec-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #000;
+}
+
+.preco_hospedagem{
+    font-size: 5vw;
+    font-weight: 700;
+}
+
+/* Segunda seção */
+
+.sec-2{
+    display: flex;
+    flex-direction: column;
+    padding: 9%;
+    border-bottom: 2px solid #000;
+}
+
+.marker_endereco{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Terceira seção */
+
+.sec-3{
+    display: flex;
+    flex-direction: column;
+    padding: 9%;
+    border-bottom: 2px solid #000;
+}
+
+.marker_comodidades{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.box_itens{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itens{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.itens i{
+    margin: 0 8px 0 15px;
+}
+
+/* Quarta Seção */
+
+.sec-4{
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
+}
+
+/* Quinta seção */
+
+.sec-5{
+    display: flex;
+    justify-content: center;
+}
+
+.botao_reserva{
+    padding: 5% 20%;
+    background-color: #836FFF;
+    color: #fff;
+    font-size: 5vw;
+    font-weight: 700;
+    margin: 15px 0 30px;
+    border-radius: 35px;
+    border: none;
+}
