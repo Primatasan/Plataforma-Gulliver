@@ -29,7 +29,7 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 15px 5% 0px 3%;
-    margin-bottom: 1.5vh;
+    margin-bottom: 3vh;
     font-size: 13px;
 }
 
@@ -177,6 +177,7 @@ html {
 
     .header_index {
         height: 270px;
+        text-align: center;
     }
 
     /* Espaço do usuario */
@@ -193,30 +194,30 @@ html {
     /* Espaço de busca do destino */
 
     .search_area h2 {
-        font-size: 30px;
+        font-size: 20px;
         margin-bottom: 0.1em;
     }
 
     .search_area h3 {
-        font-size: 30px;
+        font-size: 20px;
         margin-bottom: 0.5em;
     }
 
     /* Campo de busca */
 
     .search_box {
-        width: 90vw;
+        width: 30vw;
         height: 60px;
-    }
+    margin: auto;    }
 
     #pesquisa {
-        font-size: 25px;
+        font-size: 16px;
     }
 
     /* Formatação dos cards */
 
     .card {
-        width: 75vw;
+        width: 60vw;
         height: 30vh;
         margin: 2% 0;
     }
@@ -231,24 +232,28 @@ html {
     }
 
     .infos h3 {
-        font-size: 3vw;
-    }
-
-    .icones {
-        font-size: 25px;
-    }
-    
-    .cidade {
         font-size: 2vw;
     }
 
+    .icones i{
+        font-size: 15px;
+    }
+    
+    .cidade {
+        font-size: 1vw;
+    }
+
     .detalhe {
-        font-size: 1.5vw;
+        font-size: 1vw;
     }
 
     .preco {
-        font-size: 3vw;
+        font-size: 2vw;
     }
+    .botao {
+        height: 30%;
+    }
+
 }
 
 /* Formatação do hospedagem.html mobile */
@@ -402,4 +407,121 @@ html {
     margin: 15px 0 30px;
     border-radius: 35px;
     border: none;
+    cursor: pointer;
+}
+
+
+button.botao_reserva:hover {
+    opacity: 0.7;
+}
+/* Formatação da versão desktop */
+
+@media (min-width: 820px) {
+
+/* Formatação do main */
+
+.main_hospedagem{
+    font-size: 1.5vw;
+    color: #000;
+    padding: 2%;
+
+}
+
+.ico_titulo_hospedagem{
+    font-size: 4vw;
+}
+
+.titulo{
+    font-size: 1.5vw;
+    margin-left: 1.5vw;
+    font-weight: 700;
+}
+
+/* Primeira seção */
+
+.sec-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #000;
+    padding: 2%;
+
+}
+
+.preco_hospedagem{
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+/* Segunda seção */
+
+.sec-2{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-bottom: 2px solid #000;
+}
+
+.marker_endereco{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Terceira seção */
+
+.sec-3{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-bottom: 2px solid #000;
+}
+
+.marker_comodidades{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.box_itens{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itens{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.itens i{
+    margin: 0 8px 0 15px;
+}
+
+/* Quarta Seção */
+
+.sec-4{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+/* Quinta seção */
+
+.sec-5{
+    display: flex;
+    justify-content: center;
+}
+
+.botao_reserva{
+    padding: 2% 30%;
+    background-color: #836FFF;
+    color: #fff;
+    font-size: 1.4vw;
+    font-weight: 700;
+    margin: 15px 0 30px;
+    border-radius: 35px;
+    border: none;
+}
 }
