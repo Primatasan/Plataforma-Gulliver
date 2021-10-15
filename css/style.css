@@ -121,7 +121,7 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 85vw;
+    width: 90vw;
     height: 18vh;
     margin: 5% 0;
     padding: 8px;
@@ -136,6 +136,7 @@ html {
 
 .icones {
     color: goldenrod;
+    font-size: 8px;
 }
 
 .cidade {
@@ -143,7 +144,7 @@ html {
 }
 
 .infos h3 {
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 .detalhe {
@@ -152,7 +153,7 @@ html {
 
 .preco {
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 /* Formatação da versão desktop */
@@ -220,6 +221,10 @@ html {
         font-size: 3vw;
     }
 
+    .icones {
+        font-size: 25px;
+    }
+    
     .cidade {
         font-size: 2vw;
     }
@@ -236,5 +241,46 @@ html {
 /* Formatação do hospedagem.html */
 
 .header_hospedagem{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-image: url(/img/hotel.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
 
+.header_hospedagem i{
+    margin: 15px;
+    color: #FFF;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.base_hotel{
+    margin: 0 15px 7vh;
+}
+
+.base_hotel h1{
+    color: #FFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.85);
+}
+
+
+.icones_hospedagem i{
+    margin: 0;
+    text-shadow: none;
+    color: goldenrod;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.85);
+}
+
+.white_bar{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    height: 5vh;
+    background: #fff;
+    border-radius: 25px 25px 0 0;
 }
