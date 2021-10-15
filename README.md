@@ -1,4 +1,4 @@
-# Gulliver-responsivo
+# Gulliver Hospedagem responsivo [mobile-first]  📲
  Atividade 3 Fase 2 SI – FIAP 2021
 
 ## Info da atividade
