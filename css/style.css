@@ -6,7 +6,10 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 /* Formatação do index */
+=======
+>>>>>>> cb71e3c5ae947b9985b5d7710cc6a45b942e977e
 
 /* Formatação da versão Mobile */
 
@@ -75,14 +78,31 @@ html {
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 #pesquisa {
+=======
+#pesquisa::placeholder {
+    opacity: 0.5;
+}
+#pesquisa{
+>>>>>>> cb71e3c5ae947b9985b5d7710cc6a45b942e977e
     width: 80vw;
     height: 55%;
     border: none;
     font-size: 18px;
 }
 
+<<<<<<< HEAD
 .botao {
+=======
+#pesquisa:focus-visible {
+    outline: none;
+    opacity: 0.9;
+}
+
+
+.botao{
+>>>>>>> cb71e3c5ae947b9985b5d7710cc6a45b942e977e
     width: 50%vw;
     height: 55%;
     background-color: #FFf;
@@ -125,8 +145,13 @@ html {
     height: 18vh;
     margin: 5% 0;
     padding: 8px;
-    box-shadow: 5px 4px 18px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 4px 18px rgba(0, 0, 0, 0.1);
     border-radius: 27px;
+}
+
+.card:hover {
+    box-shadow: 5px 4px 18px rgba(0, 0, 0, 0.2);
+
 }
 
 .imagens {
@@ -237,6 +262,7 @@ html {
         font-size: 3vw;
     }
 }
+<<<<<<< HEAD
 
 /* Formatação do hospedagem.html */
 
@@ -284,3 +310,5 @@ html {
     background: #fff;
     border-radius: 25px 25px 0 0;
 }
+=======
+>>>>>>> cb71e3c5ae947b9985b5d7710cc6a45b942e977e
