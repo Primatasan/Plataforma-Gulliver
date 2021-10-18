@@ -388,7 +388,7 @@ html {
 
 .marker_comodidades{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     margin-bottom: 10px;
 }
 
@@ -399,7 +399,7 @@ html {
 
 .itens{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     margin: 10px 0;
 }
 
@@ -499,7 +499,7 @@ button.botao_reserva:hover {
 
 .marker_endereco{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     margin-bottom: 10px;
 }
 
