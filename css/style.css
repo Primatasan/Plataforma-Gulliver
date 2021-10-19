@@ -143,9 +143,10 @@ html {
 }
 
 .card:hover {
-    border: 6px solid #6D57FF;;
+    outline: 6px solid #6D57FF;
+    border: 2px solid white;
     box-shadow: 5px 4px 18px rgba(31, 22, 22, 0.2);
-
+    padding: 8px;
 }
 
 .imagens {
@@ -272,7 +273,7 @@ html {
     display: flex;
     flex-direction:column;
     justify-content: space-between;
-    background-image: url(/img/hotel.jpg);
+    background-image: url(./img/hotel.jpg);
     background-repeat:no-repeat;
     background-position:center;
     background-size: cover;
