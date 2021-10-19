@@ -80,23 +80,23 @@ html {
     font-size: 20px;
 }
 
-#pesquisa::placeholder {
+#search::placeholder {
     opacity: 0.5;
 }
-#pesquisa{
+#search{
     width: 80vw;
     height: 55%;
     border: none;
     font-size: 18px;
 }
 
-#pesquisa:focus-visible {
+#search:focus-visible {
     outline: none;
     opacity: 0.9;
 }
 
 
-.botao{
+.btn{
     width: 50%vw;
     height: 55%;
     background-color: #FFf;
@@ -120,13 +120,13 @@ html {
 
 /* Formatação dos cards */
 
-.corpo {
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.corpo a {
+.main a {
     text-decoration: none;
     color: #000;
 }
@@ -150,7 +150,7 @@ html {
     padding: 8px;
 }
 
-.imagens {
+.images {
     height: 13vh;
     border-radius: 20px;
 }
@@ -172,7 +172,7 @@ html {
     font-size: 2.5vw;
 }
 
-.preco {
+.price {
     font-weight: 700;
     font-size: 3.5vw;
 }
@@ -218,7 +218,7 @@ html {
         height: 60px;
     margin: auto;    }
 
-    #pesquisa {
+    #search {
         font-size: 16px;
     }
 
@@ -230,7 +230,7 @@ html {
         margin: 2% 0;
     }
 
-    .imagens {
+    .images {
         height: 25vh;
         border-radius: 20px;
     }
@@ -255,32 +255,32 @@ html {
         font-size: 1vw;
     }
 
-    .preco {
+    .price {
         font-size: 2vw;
     }
-    .botao {
+    .btn {
         height: 30%;
     }
 
 }
 
-/* Formatação do hospedagem.html mobile */
+/* Formatação do hosting.html mobile */
 
 /* Formatação do header */
 
-.header_hospedagem{
+.header_hosting{
     width: 100%;
     height: 40vh;
     display: flex;
     flex-direction:column;
     justify-content: space-between;
-    background-image: url(./img/hotel.jpg);
+    background-image: url(../img/hotel.jpg);
     background-repeat:no-repeat;
     background-position:center;
     background-size: cover;
 }
 
-.header_hospedagem i{
+.header_hosting i{
     margin: 15px;
     color: #6D57FF;
     font-size: 30px;
@@ -299,7 +299,7 @@ html {
 }
 
 
-.icones_hospedagem i{
+.icones_hosting i{
     margin: 0;
     text-shadow: none;
     color: goldenrod;
@@ -318,12 +318,12 @@ html {
 
 
 
-.main_hospedagem{
+.main_hosting{
     font-size: 4vw;
     color: #000;
 }
 
-.ico_titulo_hospedagem{
+.ico_titulo_hosting{
     color: #6D57FF;
     font-size: 15vw;
 }
@@ -345,7 +345,7 @@ html {
     border-bottom: 2px solid #000;
 }
 
-.preco_hospedagem{
+.price_hosting{
     font-size: 5vw;
     font-weight: 700;
 }
@@ -424,7 +424,7 @@ html {
     justify-content: center;
 }
 
-.botao_reserva{
+.btn_reservation{
     padding: 5% 20%;
     background-color: #6D57FF;
     color: #fff;
@@ -437,7 +437,7 @@ html {
 }
 
 
-button.botao_reserva:hover {
+button.btn_reservation:hover {
     opacity: 0.8;
 }
 /* Formatação da versão desktop */
@@ -446,14 +446,14 @@ button.botao_reserva:hover {
 
 /* Formatação do main */
 
-.main_hospedagem{
+.main_hosting{
     font-size: 1.5vw;
     color: #000;
     padding: 2%;
 
 }
 
-.ico_titulo_hospedagem{
+.ico_titulo_hosting{
     font-size: 4vw;
 }
 
@@ -475,7 +475,7 @@ button.botao_reserva:hover {
 
 }
 
-.preco_hospedagem{
+.price_hosting{
     font-size: 2vw;
     font-weight: 700;
 }
@@ -550,7 +550,7 @@ button.botao_reserva:hover {
     justify-content: center;
 }
 
-.botao_reserva{
+.btn_reservation{
     padding: 2% 30%;
     background-color: #836FFF;
     color: #fff;
