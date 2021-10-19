@@ -6,8 +6,6 @@
     box-sizing: border-box;
 }
 
-/* correção do git */
-
 /* Formatação da versão Mobile */
 
 html {
@@ -19,7 +17,7 @@ html {
     background-color: #000;
 }
 
-/* Cabeçalho */
+/* Header */
 
 .header_index {
     width: 100%;
@@ -29,7 +27,7 @@ html {
     border-radius: 0 0 20px 20px;
 }
 
-/* Espaço do usuario */
+/* User */
 
 .user_info {
     display: flex;
@@ -43,7 +41,7 @@ html {
     font-size: 25px;
 }
 
-/* Espaço de busca do destino */
+/* Destination search */
 
 .search_area {
     padding: 0 5% 0 3%;
@@ -61,7 +59,7 @@ html {
     margin-bottom: 1.2em;
 }
 
-/* Campo de busca */
+/* Search field */
 
 .search_box {
     width: 89vw;
@@ -118,7 +116,7 @@ html {
     color: #000;
 }
 
-/* Formatação dos cards */
+/* Cards */
 
 .main {
     display: flex;
@@ -155,12 +153,12 @@ html {
     border-radius: 20px;
 }
 
-.icones {
+.icons {
     color: goldenrod;
     font-size: 8px;
 }
 
-.cidade {
+.city {
     font-size: 3.2vw;
 }
 
@@ -168,7 +166,7 @@ html {
     font-size: 3.5vw;
 }
 
-.detalhe {
+.detail {
     font-size: 2.5vw;
 }
 
@@ -177,18 +175,18 @@ html {
     font-size: 3.5vw;
 }
 
-/* Formatação da versão desktop */
+/* SDesktop version */
 
 @media (min-width: 820px) {
 
-    /* Cabeçalho */
+    /* Desktop header */
 
     .header_index {
         height: 270px;
         text-align: center;
     }
 
-    /* Espaço do usuario */
+    /* Desktop user */
 
     .user_info {
         margin-bottom: 1vh;
@@ -199,7 +197,7 @@ html {
         font-size: 35px;
     }
 
-    /* Espaço de busca do destino */
+    /* Desktop destination search*/
 
     .search_area h2 {
         font-size: 20px;
@@ -211,7 +209,7 @@ html {
         margin-bottom: 0.5em;
     }
 
-    /* Campo de busca */
+    /* Desktop search */
 
     .search_box {
         width: 30vw;
@@ -222,7 +220,7 @@ html {
         font-size: 16px;
     }
 
-    /* Formatação dos cards */
+    /* Desktop cards */
 
     .card {
         width: 60vw;
@@ -243,15 +241,15 @@ html {
         font-size: 2vw;
     }
 
-    .icones i{
+    .icons i{
         font-size: 15px;
     }
     
-    .cidade {
+    .city {
         font-size: 1vw;
     }
 
-    .detalhe {
+    .detail {
         font-size: 1vw;
     }
 
@@ -264,9 +262,9 @@ html {
 
 }
 
-/* Formatação do hosting.html mobile */
+/* Hosting.html mobile */
 
-/* Formatação do header */
+/* Hosting header */
 
 .header_hosting{
     width: 100%;
@@ -299,7 +297,7 @@ html {
 }
 
 
-.icones_hosting i{
+.icons_hosting i{
     margin: 0;
     text-shadow: none;
     color: goldenrod;
@@ -314,8 +312,7 @@ html {
     border-radius: 25px 25px 0 0;
 }
 
-/* Formatação do main */
-
+/* Hosting main */
 
 
 .main_hosting{
@@ -323,19 +320,19 @@ html {
     color: #000;
 }
 
-.ico_titulo_hosting{
+.ico_title_hosting{
     color: #6D57FF;
     font-size: 15vw;
 }
 
-.titulo{
+.title{
     font-size: 5vw;
     margin-left: 3vw;
     font-weight: 700;
 }
 
 
-/* Primeira seção */
+/* Hosting section 1 */
 
 .sec-1{
     display: flex;
@@ -350,21 +347,21 @@ html {
     font-weight: 700;
 }
 
-/* Galeria */
+/* Galery */
 
-.sessao-galeria{
+.section-galery{
     padding: 25px 0;
     padding: 9%;
     border-bottom: 2px solid #000;;
 }
 
-.galeria-titulo{
+.galery-title{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-/* Segunda seção */
+/* Hosting section 2 */
 
 .sec-2{
     display: flex;
@@ -373,13 +370,13 @@ html {
     border-bottom: 2px solid #000;
 }
 
-.marker_endereco{
+.marker_address{
     display: flex;
     align-items: baseline;
     margin-bottom: 10px;
 }
 
-/* Terceira seção */
+/* Hosting section 3 */
 
 .sec-3{
     display: flex;
@@ -388,28 +385,28 @@ html {
     border-bottom: 2px solid #000;
 }
 
-.marker_comodidades{
+.marker_comforts{
     display: flex;
     align-items: baseline;
     margin-bottom: 10px;
 }
 
-.box_itens{
+.box_items{
     display: flex;
     flex-wrap: wrap;
 }
 
-.itens{
+.items{
     display: flex;
     align-items: baseline;
     margin: 10px 0;
 }
 
-.itens i{
+.items i{
     margin: 0 8px 0 15px;
 }
 
-/* Quarta Seção */
+/* Hosting section 4*/
 
 .sec-4{
     display: flex;
@@ -417,7 +414,7 @@ html {
     padding: 7%;
 }
 
-/* Quinta seção */
+/* Hosting section 5 */
 
 .sec-5{
     display: flex;
@@ -440,11 +437,12 @@ html {
 button.btn_reservation:hover {
     opacity: 0.8;
 }
-/* Formatação da versão desktop */
+
+/* Desktop version hosting */
 
 @media (min-width: 820px) {
 
-/* Formatação do main */
+/* Desktop hosting main */
 
 .main_hosting{
     font-size: 1.5vw;
@@ -453,17 +451,17 @@ button.btn_reservation:hover {
 
 }
 
-.ico_titulo_hosting{
+.ico_title_hosting{
     font-size: 4vw;
 }
 
-.titulo{
+.title{
     font-size: 1.5vw;
     margin-left: 1.5vw;
     font-weight: 700;
 }
 
-/* Primeira seção */
+/* Desktop hosting section 1 */
 
 .sec-1{
     display: flex;
@@ -480,9 +478,9 @@ button.btn_reservation:hover {
     font-weight: 700;
 }
 
-/* galeria */
+/* Desktop hosting galery */
 
-.sessao-galeria{
+.section-galery{
 
     display: flex;
     flex-direction: column;
@@ -490,7 +488,7 @@ button.btn_reservation:hover {
     border-bottom: 2px solid #000;
 }
 
-/* Segunda seção */
+/* Desktop hosting section 2 */
 
 .sec-2{
     display: flex;
@@ -499,13 +497,13 @@ button.btn_reservation:hover {
     border-bottom: 2px solid #000;
 }
 
-.marker_endereco{
+.marker_address{
     display: flex;
     align-items: baseline;
     margin-bottom: 10px;
 }
 
-/* Terceira seção */
+/* Desktop hosting section 3 */
 
 .sec-3{
     display: flex;
@@ -514,28 +512,28 @@ button.btn_reservation:hover {
     border-bottom: 2px solid #000;
 }
 
-.marker_comodidades{
+.marker_comforts{
     display: flex;
     align-items: baseline;
     margin-bottom: 10px;
 }
 
-.box_itens{
+.box_items{
     display: flex;
     flex-wrap: wrap;
 }
 
-.itens{
+.items{
     display: flex;
     align-items: baseline;
     margin: 10px 0;
 }
 
-.itens i{
+.items i{
     margin: 0 8px 0 15px;
 }
 
-/* Quarta Seção */
+/* Desktop hosting section 4 */
 
 .sec-4{
     display: flex;
@@ -543,7 +541,7 @@ button.btn_reservation:hover {
     padding: 2%;
 }
 
-/* Quinta seção */
+/* Desktop hosting section 5 */
 
 .sec-5{
     display: flex;
