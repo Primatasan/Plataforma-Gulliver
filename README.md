@@ -1,7 +1,7 @@
 # Web App da Plataforma de Viagens Gulliver 
 100% responsivo [mobile-first] e aprimorado para acessibilidade
 
-Versão hospedada ao vivo: https://gulliver-responsivo.netlify.app/hosting.html
+Versão hospedada ao vivo: https://gulliver-responsivo.netlify.app
 
 Acess
 
