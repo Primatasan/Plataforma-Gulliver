@@ -3,7 +3,6 @@
 
 Versão hospedada ao vivo: https://gulliver-responsivo.netlify.app
 
-Acess
 
 ## Info da atividade
 
