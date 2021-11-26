@@ -1,5 +1,9 @@
-# Gulliver Hospedagem responsivo [mobile-first]  📲
- Atividade 3 Fase 2 SI – FIAP 2021
+# Web App da Plataforma de Viagens Gulliver 
+100% responsivo [mobile-first] e aprimorado para acessibilidade
+
+Versão hospedada ao vivo: https://gulliver-responsivo.netlify.app/hosting.html
+
+Acess
 
 ## Info da atividade
 
